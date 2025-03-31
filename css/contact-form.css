@@ -1,0 +1,119 @@
+/* Contact Section Styles */
+.contact {
+    background-color: #2d3436;
+    color: #fff;
+    padding: 6rem 2rem;
+}
+
+.contact-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contact-info {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2.5rem;
+    margin-bottom: 3rem;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1.5rem;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.contact-item:hover {
+    background-color: rgba(255, 255, 255, 0.15);
+    transform: translateY(-3px);
+}
+
+.contact-item i {
+    font-size: 1.8rem;
+    color: #0984e3;
+}
+
+.contact-item p {
+    font-size: 1.1rem;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin: 2rem 0;
+}
+
+.social-icon {
+    color: #fff;
+    font-size: 1.8rem;
+    transition: all 0.3s ease;
+}
+
+.social-icon:hover {
+    color: #0984e3;
+    transform: translateY(-3px);
+}
+
+.resume-download {
+    margin-top: 2rem;
+}
+
+.resume-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: #0984e3;
+    color: #fff;
+    padding: 1rem 2.5rem;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.resume-btn:hover {
+    background-color: #0069d9;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(9, 132, 227, 0.3);
+}
+
+/* Dark Mode Contact Styles */
+.dark-mode .contact {
+    background-color: #1e1e1e;
+}
+
+.dark-mode .contact-item {
+    background-color: #2d2d2d;
+}
+
+.dark-mode .contact-item:hover {
+    background-color: #3d3d3d;
+}
+
+.dark-mode .contact-item i {
+    color: #00ff00;
+}
+
+.dark-mode .social-icon {
+    color: #ffffff;
+}
+
+.dark-mode .social-icon:hover {
+    color: #00ff00;
+}
+
+.dark-mode .resume-btn {
+    background-color: #00ff00;
+    color: #000000;
+}
+
+.dark-mode .resume-btn:hover {
+    background-color: #00cc00;
+} 
